@@ -47,7 +47,10 @@ Copy the `autoSwitchStatus` folder into `Vencord/src/userplugins/`, then run `pn
 
 - Changing your status by hand still works, but the plugin will set it again the next time you join or leave a call.
 - If a Discord update removes Vencord, just run `install.bat` again.
-- Works well together with [FriendsInVoice](https://github.com/mPhpMaster/FriendsInVoice).
+
+## See also
+
+- [FriendsInVoice](https://github.com/mPhpMaster/FriendsInVoice): a full page showing which voice rooms your friends are in, who's with them, and one-click join.
 
 ## License
 

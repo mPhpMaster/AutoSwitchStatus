@@ -45,7 +45,10 @@
 
 - لسا بتقدر تغيّر حالتك بإيدك، بس الإضافة رح ترجع تغيّرها أول ما تدخل أو تطلع من مكالمة.
 - إذا تحديث ديسكورد شال Vencord، شغّل `install.bat` مرة ثانية.
-- بتمشي منيح مع إضافة [FriendsInVoice](https://github.com/mPhpMaster/FriendsInVoice).
+
+## إضافات ثانية
+
+- [FriendsInVoice](https://github.com/mPhpMaster/FriendsInVoice): صفحة كاملة بتبيّنلك أصحابك بأي روم صوتي، مين معهم، وبتدخل الروم بضغطة وحدة.
 
 ## الرخصة
 

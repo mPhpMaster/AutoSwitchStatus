@@ -46,8 +46,8 @@ For example, set *in call → Do Not Disturb* and *outside call → Online* to g
 
 1. **Download and unzip** the [latest release](../../releases/latest) (double-click the zip on a Mac).
 2. **Run the installer**:
-   - **Mac:** double-click **`install.command`**. The first time, macOS may say it's from an unidentified developer: right-click it → **Open** → **Open**.
-   - **Mac or Linux, from Terminal:** type `bash ` (with a space), drag **`install.sh`** into the Terminal window, and press Enter.
+   - **Mac or Linux, from Terminal (recommended):** type `bash ` (with a space), drag **`install.sh`** into the Terminal window, and press Enter. This works on every macOS version without security prompts.
+   - **Mac, double-click:** double-click **`install.command`**. The first time, macOS blocks files from unidentified developers. On macOS 15 (Sequoia) and later, open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**; on older versions, right-click the file → **Open** → **Open**.
 
    It does the same as the Windows installer: installs **Git** (Mac: Apple's Command Line Tools), **Node.js** (Mac: offers to install [Homebrew](https://brew.sh) for it) and **pnpm** if they're missing, downloads and builds **Vencord** in `~/Vencord` (or finds the one you already have), adds AutoSwitchStatus, patches Discord and offers to restart it. If AutoSwitchStatus is already installed, it asks whether to uninstall or update it.
 3. **Turn the plugin on**: in Discord, **User Settings** → **Vencord** → **Plugins**, search **AutoSwitchStatus** and switch it **on**.

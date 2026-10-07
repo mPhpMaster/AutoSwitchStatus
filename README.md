@@ -26,18 +26,40 @@ For example, set *in call → Do Not Disturb* and *outside call → Online* to g
 
 ## Install
 
-User plugins require Vencord built from source. The included installer does all of it for you on Windows, and no coding is needed:
+> AutoSwitchStatus is a plugin for **[Vencord](https://vencord.dev)** ([GitHub](https://github.com/Vendicated/Vencord)). Custom plugins can't be added to the regular Vencord download; Vencord has to be built from source on your PC. The installer below does all of that for you on Windows, and no coding is needed.
 
-1. [Download the latest release](../../releases/latest) and unzip it.
-2. Double-click **`install.bat`**. It installs Git / Node.js / pnpm if they're missing, downloads Vencord, adds the plugin, builds it, and patches Discord.
-3. Fully quit Discord (right-click the tray icon near the clock → **Quit**) and reopen it.
-4. Go to **Settings → Vencord → Plugins**, search **AutoSwitchStatus**, and turn it on.
+**What you need:** Windows 10/11 and the Discord desktop app ([download Discord](https://discord.com/download)). Log in to Discord at least once before installing.
 
-Already have a Vencord source folder? Run:
+1. **Download the plugin.** Go to the [latest release](../../releases/latest) and download `AutoSwitchStatus-vX.Y.Z.zip`.
+2. **Unzip it.** Right-click the zip → **Extract All…** → **Extract**.
+3. **Run the installer.** Double-click **`install.bat`**. If Windows shows "Windows protected your PC", click **More info → Run anyway**. The installer:
+   - installs **Git**, **Node.js** and **pnpm** if they're missing (click **Yes** on any Windows permission prompts),
+   - downloads **Vencord** to `%USERPROFILE%\Vencord` and builds it (a few minutes the first time),
+   - adds the AutoSwitchStatus plugin,
+   - patches Discord so it loads Vencord,
+   - asks to restart Discord. Answer **Y**.
+
+   Already have Vencord built from source? The installer finds it automatically and only adds the plugin.
+4. **Turn the plugin on.** In Discord: **User Settings** (⚙️ next to your name) → **Vencord** → **Plugins**, search **AutoSwitchStatus** and switch it **on**.
+
+### Installer options
+
+Run from a terminal opened in the unzipped folder:
 
 ```powershell
-.\install.ps1 -VencordDir D:\Vencord
+.\install.bat                          # same as double-clicking it
+.\install.bat -VencordDir D:\Vencord   # use (or create) Vencord in this folder
+.\install.bat -Branch ptb              # Discord PTB (or: canary)
+.\install.bat -DetectOnly              # only show what's installed, change nothing
 ```
+
+### Update
+
+Download the new release, unzip it and run `install.bat` again. It will say AutoSwitchStatus is already installed and ask whether to uninstall it. Answer **N**, then **Y** to update.
+
+### Uninstall
+
+Run `install.bat` and answer **Y** when it asks whether to uninstall AutoSwitchStatus. Only the plugin is removed; Vencord stays installed.
 
 ### Manual install
 

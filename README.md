@@ -42,7 +42,21 @@ For example, set *in call → Do Not Disturb* and *outside call → Online* to g
    Already have Vencord built from source? The installer finds it automatically and only adds the plugin.
 4. **Turn the plugin on.** In Discord: **User Settings** (⚙️ next to your name) → **Vencord** → **Plugins**, search **AutoSwitchStatus** and switch it **on**.
 
-### Installer options
+### macOS and Linux
+
+1. **Download and unzip** the [latest release](../../releases/latest) (double-click the zip on a Mac).
+2. **Run the installer**:
+   - **Mac:** double-click **`install.command`**. The first time, macOS may say it's from an unidentified developer: right-click it → **Open** → **Open**.
+   - **Mac or Linux, from Terminal:** type `bash ` (with a space), drag **`install.sh`** into the Terminal window, and press Enter.
+
+   It does the same as the Windows installer: installs **Git** (Mac: Apple's Command Line Tools), **Node.js** (Mac: offers to install [Homebrew](https://brew.sh) for it) and **pnpm** if they're missing, downloads and builds **Vencord** in `~/Vencord` (or finds the one you already have), adds AutoSwitchStatus, patches Discord and offers to restart it. If AutoSwitchStatus is already installed, it asks whether to uninstall or update it.
+3. **Turn the plugin on**: in Discord, **User Settings** → **Vencord** → **Plugins**, search **AutoSwitchStatus** and switch it **on**.
+
+If patching Discord fails on a Mac, open **System Settings → Privacy & Security → App Management**, turn on **Terminal**, and run the installer again.
+
+Options work the same way: `bash install.sh --vencord-dir ~/Vencord`, `--branch ptb` (or `canary`), `--detect-only`.
+
+### Windows installer options
 
 Run from a terminal opened in the unzipped folder:
 
@@ -55,11 +69,11 @@ Run from a terminal opened in the unzipped folder:
 
 ### Update
 
-Download the new release, unzip it and run `install.bat` again. It will say AutoSwitchStatus is already installed and ask whether to uninstall it. Answer **N**, then **Y** to update.
+Download the new release, unzip it and run `install.bat` again (Mac/Linux: `install.command` or `install.sh`). It will say AutoSwitchStatus is already installed and ask whether to uninstall it. Answer **N**, then **Y** to update.
 
 ### Uninstall
 
-Run `install.bat` and answer **Y** when it asks whether to uninstall AutoSwitchStatus. Only the plugin is removed; Vencord stays installed.
+Run `install.bat` (Mac/Linux: `install.command` or `install.sh`) and answer **Y** when it asks whether to uninstall AutoSwitchStatus. Only the plugin is removed; Vencord stays installed.
 
 ### Manual install
 

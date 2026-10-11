@@ -2,6 +2,8 @@
 
 **[العربية](README.ar.md)**
 
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://paypal.me/mfsafadi)
+
 Be **invisible automatically when you're not in a call**, and switch back to **online** the moment you join one. No more forgetting to change your status.
 
 ## How it works
@@ -87,6 +89,14 @@ Copy the `autoSwitchStatus` folder into `Vencord/src/userplugins/`, then run `pn
 ## See also
 
 - [FriendsInVoice](https://github.com/mPhpMaster/FriendsInVoice): a full page showing which voice rooms your friends are in, who's with them, and one-click join.
+
+## Support
+
+If AutoSwitchStatus is useful to you, you can support its development with a donation:
+
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://paypal.me/mfsafadi)
+
+Thank you! Stars on GitHub, bug reports and ideas help a lot too.
 
 ## License
 

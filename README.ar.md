@@ -4,6 +4,8 @@
 
 **[English](README.md)**
 
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://paypal.me/mfsafadi)
+
 بتخليك **مخفي (Invisible) تلقائياً لما ما تكون بمكالمة**، وبترجعك **أونلاين** أول ما تدخل مكالمة. ما عاد تنسى تغيّر حالتك.
 
 ## كيف بتشتغل
@@ -85,6 +87,14 @@
 ## إضافات ثانية
 
 - [FriendsInVoice](https://github.com/mPhpMaster/FriendsInVoice): صفحة كاملة بتبيّنلك أصحابك بأي روم صوتي، مين معهم، وبتدخل الروم بضغطة وحدة.
+
+## ادعم المشروع
+
+إذا AutoSwitchStatus عجبتك وأفادتك، بتقدر تدعم تطويرها بتبرّع:
+
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://paypal.me/mfsafadi)
+
+شكراً إلك! والنجمة على GitHub، وبلاغات الأخطاء، والأفكار كمان بتساعد كتير.
 
 ## الرخصة
 
